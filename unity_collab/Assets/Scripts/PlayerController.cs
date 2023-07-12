@@ -4,14 +4,19 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float horizontal;
+   
     [SerializeField]private float speed = 8.0f;
     [SerializeField]private float jumpForce = 10.0f;
-    private float movementX;
+    
     [SerializeField] private Rigidbody2D rb;
     private bool isGrounded;
     private string GROUND_TAG = "Ground";
     private SpriteRenderer sr;
+    private float movementX;
+    private float horizontal;
+    bool doubleJump;
+
+    
 
     private void Awake()
     {
@@ -21,6 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         PlayerMoveKeyboard();
         PlayerJump();
+        
     }
 
     void PlayerMoveKeyboard()
@@ -33,10 +39,23 @@ public class PlayerController : MonoBehaviour
 
     void PlayerJump()
     {
-        if(Input.GetButtonDown("Jump") && isGrounded)
+        if(Input.GetButtonDown("Jump"))
         {
-            isGrounded = false;
-            rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            
+            if(isGrounded)
+            {
+                isGrounded = false;
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                doubleJump = true;
+            }
+            else if(doubleJump)
+            {
+                isGrounded = false;
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                doubleJump = false;
+            }
+            /*isGrounded = false;
+            rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);*/
 
         }
     }
@@ -48,4 +67,12 @@ public class PlayerController : MonoBehaviour
             isGrounded = true;
         }
     }
+
+    
+
+    
+
+
+
+
 }
