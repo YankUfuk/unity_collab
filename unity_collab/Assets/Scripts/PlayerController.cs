@@ -4,30 +4,36 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-   
-    [SerializeField]private float speed = 8.0f;
-    [SerializeField]private float jumpForce = 10.0f;
-    
+    //character movement on x axis
+    [SerializeField] private float speed = 8.0f;
+    [SerializeField] private float jumpForce = 10.0f;
     [SerializeField] private Rigidbody2D rb;
-    private bool isGrounded;
-    private string GROUND_TAG = "Ground";
     private SpriteRenderer sr;
     private float movementX;
     private float horizontal;
+    
+    //character jump
     bool doubleJump;
+    private bool isGrounded;
+    private string GROUND_TAG = "Ground";
 
+    //character dash
     private bool canDash = true;
     private bool isDashing;
     private float dashingPower = 24f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
     [SerializeField] private TrailRenderer tr;
+
+    //character facing direction
+    public bool facingRight;
   
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
+
     void Update()
     {
         if(isDashing)
@@ -52,11 +58,31 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    
+    
+
     void PlayerMoveKeyboard()
     {
         movementX = Input.GetAxisRaw("Horizontal");
 
         transform.position += new Vector3(movementX, 0, 0) * Time.deltaTime * speed;
+        if(movementX > 0.5)
+        {
+            facingRight = true;
+        }
+        if(movementX < -0.5) 
+        {
+            facingRight = false;
+        }
+
+        if(facingRight)
+        {
+            transform.localScale = new Vector2(1,1);
+        }
+        else if(!facingRight)
+        {
+            transform.localScale = new Vector2(-1,1);
+        }
     }
 
 
@@ -77,8 +103,7 @@ public class PlayerController : MonoBehaviour
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
                 doubleJump = false;
             }
-            /*isGrounded = false;
-            rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);*/
+        
 
         }
     }
