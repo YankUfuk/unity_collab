@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -594.72, y: -281.14}
+  m_AnchoredPosition: {x: -614.98, y: -271.79}
   m_SizeDelta: {x: 17.4907, y: 6.8471}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &24844827
@@ -208,8 +208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 5
-  m_fontSizeBase: 5
+  m_fontSize: 0
+  m_fontSizeBase: 0
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -704,8 +704,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0027999878, y: -0.00090003014, z: 0}
-    m_Extent: {x: 1.0058, y: 1.0058, z: 0}
+    m_Center: {x: 0.0014500022, y: 0.0033000112, z: 0}
+    m_Extent: {x: 1.00775, y: 1.0006001, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5703,8 +5703,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0019500256, y: 0.0021999478, z: 0}
-    m_Extent: {x: 1.00475, y: 1.0047, z: 0}
+    m_Center: {x: 0.0035000145, y: -0.0012500286, z: 0}
+    m_Extent: {x: 1.0009, y: 1.00385, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5867,8 +5867,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0041999817, y: -0.00024998188, z: 0}
-    m_Extent: {x: 1.0048, y: 1.00945, z: 0}
+    m_Center: {x: -0.0023499727, y: -0.007199973, z: 0}
+    m_Extent: {x: 1.00175, y: 1.0026, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
