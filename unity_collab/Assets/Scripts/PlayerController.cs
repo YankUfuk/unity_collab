@@ -27,6 +27,9 @@ public class PlayerController : MonoBehaviour
 
     //character facing direction
     public bool facingRight;
+
+    //animation
+    public Animator animator;
   
 
     private void Awake()
@@ -48,6 +51,8 @@ public class PlayerController : MonoBehaviour
         {
             StartCoroutine(Dash());
         }
+
+        animator.SetFloat("Speed", Mathf.Abs(movementX));
         
     }
     private void FixedUpdate()
@@ -85,6 +90,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    
 
     void PlayerJump()
     {
@@ -95,12 +101,17 @@ public class PlayerController : MonoBehaviour
             {
                 isGrounded = false;
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+
+                animator.SetBool("IsJumping", true);
+                animator.SetBool("IsGrounded", false);
                 doubleJump = true;
             }
             else if(doubleJump)
             {
                 isGrounded = false;
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+                animator.SetBool("IsJumping", false);
+                animator.SetBool("IsGrounded", true);
                 doubleJump = false;
             }
         

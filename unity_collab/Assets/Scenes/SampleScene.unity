@@ -605,8 +605,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00040000677, y: -0.0012999773, z: 0}
-    m_Extent: {x: 1.0086999, y: 0.9993, z: 0}
+    m_Center: {x: 0.0044499934, y: -0.007250011, z: 0}
+    m_Extent: {x: 0.99775004, y: 1.0020499, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5279,7 +5279,8 @@ MonoBehaviour:
   jumpForce: 6
   rb: {fileID: 1506687412}
   tr: {fileID: 1506687409}
-  facingRight: 0
+  facingRight: 1
+  animator: {fileID: 1506687413}
 --- !u!61 &1506687411
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5482,8 +5483,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00089997053, y: 0.004150003, z: 0}
-    m_Extent: {x: 1.006, y: 1.00025, z: 0}
+    m_Center: {x: -0.0029999614, y: 0.002849996, z: 0}
+    m_Extent: {x: 1.0009999, y: 1.00495, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5825,7 +5826,7 @@ MonoBehaviour:
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
