@@ -101,18 +101,20 @@ public class PlayerController : MonoBehaviour
             {
                 isGrounded = false;
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-
-                animator.SetBool("IsJumping", true);
-                animator.SetBool("IsGrounded", false);
-                doubleJump = true;
+                animator.SetBool("IsJumping", false);
+                
+                //doubleJump = true;
             }
             else if(doubleJump)
             {
                 isGrounded = false;
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-                animator.SetBool("IsJumping", false);
-                animator.SetBool("IsGrounded", true);
-                doubleJump = false;
+                
+                //doubleJump = false;
+            }
+            else
+            {
+                animator.SetBool("IsJumping", true);
             }
         
 
