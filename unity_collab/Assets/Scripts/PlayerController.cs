@@ -101,7 +101,7 @@ public class PlayerController : MonoBehaviour
             {
                 isGrounded = false;
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-                animator.SetBool("IsJumping", false);
+                animator.SetBool("IsJumping", true);
                 
                 //doubleJump = true;
             }
@@ -114,7 +114,7 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                animator.SetBool("IsJumping", true);
+                animator.SetBool("IsJumping", false);
             }
         
 
