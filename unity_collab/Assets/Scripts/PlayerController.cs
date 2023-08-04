@@ -101,12 +101,7 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("IsJumping", true);
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         isGrounded = false;
-                
-                
-        
-                
-                
-            
+
     
         }
         
