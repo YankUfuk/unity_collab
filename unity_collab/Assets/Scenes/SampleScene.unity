@@ -677,8 +677,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0032999814, y: -0.003450036, z: 0}
-    m_Extent: {x: 1.0024, y: 0.99825, z: 0}
+    m_Center: {x: 0.0011999607, y: -0.00025004148, z: 0}
+    m_Extent: {x: 1.0079, y: 1.0058501, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5348,7 +5348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
-  jumpForce: 6
+  jumpForce: 10
   rb: {fileID: 1506687412}
   tr: {fileID: 1506687409}
   facingRight: 1
@@ -5555,8 +5555,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00085002184, y: -0.00019997358, z: 0}
-    m_Extent: {x: 1.0078499, y: 1.0055001, z: 0}
+    m_Center: {x: 0.0014499724, y: 0.003700018, z: 0}
+    m_Extent: {x: 0.99335, y: 1.0021, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

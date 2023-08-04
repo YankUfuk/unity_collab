@@ -94,31 +94,22 @@ public class PlayerController : MonoBehaviour
 
     void PlayerJump()
     {
-        if(Input.GetButtonDown("Jump"))
+        
+        if(Input.GetButtonDown("Jump") && isGrounded)
         {
             
-            if(isGrounded)
-            {
-                isGrounded = false;
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-                animator.SetBool("IsJumping", true);
+        animator.SetBool("IsJumping", true);
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        isGrounded = false;
                 
-                //doubleJump = true;
-            }
-            else if(doubleJump)
-            {
-                isGrounded = false;
-                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
                 
-                //doubleJump = false;
-            }
-            else
-            {
-                animator.SetBool("IsJumping", false);
-            }
         
-
+                
+                
+            
+    
         }
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision2D)
@@ -126,6 +117,7 @@ public class PlayerController : MonoBehaviour
         if(collision2D.gameObject.CompareTag(GROUND_TAG))
         {
             isGrounded = true;
+            animator.SetBool("IsJumping", false);
         }
     }
 
