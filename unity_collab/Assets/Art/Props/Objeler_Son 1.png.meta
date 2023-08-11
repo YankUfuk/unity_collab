@@ -1,0 +1,1795 @@
+fileFormatVersion: 2
+guid: 1a727eb5c51c7674894ccfe56959a3af
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Objeler_Son_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 912
+        width: 162
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf12ff7a25542b5499daf2cd6646c937
+      internalID: 1885690101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 910
+        width: 162
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4b9df6ee6065e4586277e4636c508e
+      internalID: -527618801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 952
+        width: 68
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f648488aaa90b4e48b1d2202180a881a
+      internalID: -1394674328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 952
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f5d8f1609bae041834a83513eb25b4
+      internalID: -1488664412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_4
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 836
+        width: 100
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333feb4e5da315f4584bfeb126005662
+      internalID: -1421291727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_5
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 812
+        width: 162
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51ddc40100b13443aa6083189596f95
+      internalID: -1710103942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 814
+        width: 158
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2921e9274dcb834e937f2d649870bc5
+      internalID: -939999286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 896
+        width: 68
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9830f202dfa189d48b7cc9ea01047d36
+      internalID: -503884800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_8
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 892
+        width: 90
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a7d41e60ee9bc4db80fffbe24c0ffd
+      internalID: 1937961350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_9
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 836
+        width: 46
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72fc56cd5656ae42825a9a74cb32966
+      internalID: -636402340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_10
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 836
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4ca5844e5221e468a1d87e97686fa1
+      internalID: 2028460942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 832
+        width: 68
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17a67ae5acbf7644856d5277419c5c3
+      internalID: -1556285052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_12
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 832
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8a0250805208f40b1e97d18de76676
+      internalID: -1693105361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_13
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 708
+        width: 162
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce1ffbb821e4824a93326801cfec79d
+      internalID: -676319451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_14
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 698
+        width: 162
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cf9070659cd9d4b96ab7bd86a94d70
+      internalID: 752011731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_15
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 680
+        width: 48
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f902211da3e832646b946f9b204a7cfe
+      internalID: 1029383109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_16
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 680
+        width: 48
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecec7fa6cb1256941948ba83d40b1bd5
+      internalID: 808787066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_17
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 682
+        width: 48
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df790ef5201d6d44baef2fcbabc3db1
+      internalID: -1882706641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 622
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dabc28d95df59b499d0a883b9524e63
+      internalID: -2013542849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 622
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f979cbe29f7994bacd79a8d47c6e10
+      internalID: 1708644617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 630
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b60c9b0de12c584f937e1b8c4c32081
+      internalID: -1088280497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 600
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e39217647ed00459c2ddaec9733489
+      internalID: -1399625057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_22
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 546
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c30a5b02b5e514fa47fbb1169ae1b7
+      internalID: -542939062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 562
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847fa0c2676aeb34594e375db23fd80b
+      internalID: -1228549092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_24
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 564
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605c325f9d8fc1645bf41a95783d20f4
+      internalID: -1416042623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 566
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd8325f940a8924f82bb75b74d4e010
+      internalID: 409704748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_26
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 568
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3a7ef0e0ceb5a41b3a3309dcd74ab1
+      internalID: 2083160210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_27
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 560
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4164cceea4550e34f9bc7eafaf9db2fa
+      internalID: 1992398895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_28
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 564
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34293d168f7386f4aab7d2d3cc5781a6
+      internalID: 1191479849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_29
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 560
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee6ee45a3d937a4c82d165cf92781ab
+      internalID: 1006896785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_30
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 560
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91befffc3d748647afab5730a5b983e
+      internalID: -238974464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_31
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 562
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac83972b212acd4e8fb0a17721d18e8
+      internalID: -34676279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_32
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 564
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1781f59545921a84097b719f868fb423
+      internalID: 1290942057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_33
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 566
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65233f888f5cd094facc6758a8ba1896
+      internalID: 1107510727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_34
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 512
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cf4e4d89b3359459ebb8c35f6c0034
+      internalID: 1139802316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_35
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 512
+        width: 26
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee317408fceb9044aa4c5031c1e1f51
+      internalID: -698364414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_36
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 512
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151e7dbb2aeb7fa48a8d2cf112c3a4f3
+      internalID: 618970878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_37
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 540
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2994f8354d99314288393ac1105c45c
+      internalID: -1817275667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_38
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 538
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfef1be6bdb46c24e8ce77936ce40ac4
+      internalID: 345132455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_39
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 538
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539f1aea48b0a4d44864e87eeba9fa84
+      internalID: 1285461647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_40
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 504
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5ede37278195c41b456debda08dea9
+      internalID: -2113230858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_41
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 500
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0292a6a9085826a4ba578fd54b60027d
+      internalID: -942400325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_42
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 504
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fc7819b0dfe694f93a7e7d7926b970
+      internalID: 163332551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 472
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca35a91b3e71471498a1724bc73cc1bc
+      internalID: -1390706066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_44
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 472
+        width: 64
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd95542a5b02194caaed1110b4cb940
+      internalID: -185493596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_45
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 472
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0383c3bde5af2498b9b9df2e064d5e
+      internalID: 1931520632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_46
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 408
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387379470f024e145b8825b596db04e8
+      internalID: -1117732305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_47
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 406
+        width: 44
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb26e6de66467b24196071ba321dba0e
+      internalID: -1064694338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_48
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 406
+        width: 30
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cbca0be452ba445938620aa443a367
+      internalID: 1527130434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_49
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 406
+        width: 44
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b23ae13d12b3cc489b1d86c5f6c387c
+      internalID: 1910250022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_50
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 406
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535fc6a1f8f880e438e7d74ebe7a54af
+      internalID: 152216202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 440
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e744f3fbb2bfa7458c55f87e305700d
+      internalID: 504715116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_52
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 438
+        width: 64
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177c27dc9b9990c4e8c275833e798bc3
+      internalID: -912348399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_53
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 440
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644c4bcd67417dd4498386556f93222a
+      internalID: -1970239638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_54
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 282
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67a8b136d92c4640ab4969f271cde19
+      internalID: 1379352082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_55
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 284
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1839e30f768efb14aa24bb422c78f154
+      internalID: 813275370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_56
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 300
+        width: 64
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c27d99197e99e4d84c029f6d6ca20e
+      internalID: 924805139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_57
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 300
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b44ca40d7eda546bab959ca8f0e54f
+      internalID: 1521742162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_58
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 308
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0c7df273bc87c4bb1e9dc6c80bdef5
+      internalID: -1305140550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_59
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 308
+        width: 30
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d3300e3462dcc43a03ccfe2d350313
+      internalID: -628873141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_60
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 310
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adae0e64f4e8874bada0cdb3f3517f7
+      internalID: -1491627137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_61
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 240
+        width: 98
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78258d4365768354488d85a09031e0ec
+      internalID: 269948736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_62
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 244
+        width: 90
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1c80dc3dcc2bd419d18097ddefcdcd
+      internalID: -1250361026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_63
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 212
+        width: 40
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d000ba485eba2874ea6c595edda87c6c
+      internalID: 1065682583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_64
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 212
+        width: 30
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d001726b88f7745a5bf5db8d56a2f2
+      internalID: -345626312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_65
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 212
+        width: 40
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8a9bb845c3dd148afdf6264abdf980
+      internalID: 1767675233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_66
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 168
+        width: 136
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08435feb7e6be8a4799f194765da802a
+      internalID: 1290101610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_67
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 178
+        width: 88
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b30d277b93b434cb3eee368f6e7958
+      internalID: 147175188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_68
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 116
+        width: 40
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06662c48e6ac01458b973874cedd7e7
+      internalID: -70563738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_69
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 116
+        width: 30
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02a80ac17dc86e479cca7bf49ce9d19
+      internalID: 140711223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_70
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 118
+        width: 40
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bd4bad1012d3d49af0db988db6e41e
+      internalID: -1411848641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_71
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 112
+        width: 76
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a180cd0daac565d4dbf7c2093ed6b841
+      internalID: 1207659906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_72
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 114
+        width: 90
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93116df9b124fe74ea5023d42ff9a47b
+      internalID: 373201626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_73
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 16
+        width: 26
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a9511172a154140ab1e09d1a8ab8d0
+      internalID: 415436451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_74
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 16
+        width: 26
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c242628970c64804db0f855f8990575a
+      internalID: 1945445954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objeler_Son_75
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 16
+        width: 28
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d04fec2837fcc498ba88d53a87161f
+      internalID: -81535307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Objeler_Son_0: 1885690101
+      Objeler_Son_1: -527618801
+      Objeler_Son_10: 2028460942
+      Objeler_Son_11: -1556285052
+      Objeler_Son_12: -1693105361
+      Objeler_Son_13: -676319451
+      Objeler_Son_14: 752011731
+      Objeler_Son_15: 1029383109
+      Objeler_Son_16: 808787066
+      Objeler_Son_17: -1882706641
+      Objeler_Son_18: -2013542849
+      Objeler_Son_19: 1708644617
+      Objeler_Son_2: -1394674328
+      Objeler_Son_20: -1088280497
+      Objeler_Son_21: -1399625057
+      Objeler_Son_22: -542939062
+      Objeler_Son_23: -1228549092
+      Objeler_Son_24: -1416042623
+      Objeler_Son_25: 409704748
+      Objeler_Son_26: 2083160210
+      Objeler_Son_27: 1992398895
+      Objeler_Son_28: 1191479849
+      Objeler_Son_29: 1006896785
+      Objeler_Son_3: -1488664412
+      Objeler_Son_30: -238974464
+      Objeler_Son_31: -34676279
+      Objeler_Son_32: 1290942057
+      Objeler_Son_33: 1107510727
+      Objeler_Son_34: 1139802316
+      Objeler_Son_35: -698364414
+      Objeler_Son_36: 618970878
+      Objeler_Son_37: -1817275667
+      Objeler_Son_38: 345132455
+      Objeler_Son_39: 1285461647
+      Objeler_Son_4: -1421291727
+      Objeler_Son_40: -2113230858
+      Objeler_Son_41: -942400325
+      Objeler_Son_42: 163332551
+      Objeler_Son_43: -1390706066
+      Objeler_Son_44: -185493596
+      Objeler_Son_45: 1931520632
+      Objeler_Son_46: -1117732305
+      Objeler_Son_47: -1064694338
+      Objeler_Son_48: 1527130434
+      Objeler_Son_49: 1910250022
+      Objeler_Son_5: -1710103942
+      Objeler_Son_50: 152216202
+      Objeler_Son_51: 504715116
+      Objeler_Son_52: -912348399
+      Objeler_Son_53: -1970239638
+      Objeler_Son_54: 1379352082
+      Objeler_Son_55: 813275370
+      Objeler_Son_56: 924805139
+      Objeler_Son_57: 1521742162
+      Objeler_Son_58: -1305140550
+      Objeler_Son_59: -628873141
+      Objeler_Son_6: -939999286
+      Objeler_Son_60: -1491627137
+      Objeler_Son_61: 269948736
+      Objeler_Son_62: -1250361026
+      Objeler_Son_63: 1065682583
+      Objeler_Son_64: -345626312
+      Objeler_Son_65: 1767675233
+      Objeler_Son_66: 1290101610
+      Objeler_Son_67: 147175188
+      Objeler_Son_68: -70563738
+      Objeler_Son_69: 140711223
+      Objeler_Son_7: -503884800
+      Objeler_Son_70: -1411848641
+      Objeler_Son_71: 1207659906
+      Objeler_Son_72: 373201626
+      Objeler_Son_73: 415436451
+      Objeler_Son_74: 1945445954
+      Objeler_Son_75: -81535307
+      Objeler_Son_8: 1937961350
+      Objeler_Son_9: -636402340
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
