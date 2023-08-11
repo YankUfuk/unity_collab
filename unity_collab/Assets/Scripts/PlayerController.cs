@@ -17,13 +17,13 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private string GROUND_TAG = "Ground";
 
-    //character dash
+    /* 
     private bool canDash = true;
     private bool isDashing;
     private float dashingPower = 24f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
-    [SerializeField] private TrailRenderer tr;
+    [SerializeField] private TrailRenderer tr;*/
 
     //character facing direction
     public bool facingRight;
@@ -39,28 +39,29 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if(isDashing)
+        /*if(isDashing)
         {
             return;
-        }
+        }*/
 
         PlayerMoveKeyboard();
         PlayerJump();
 
+        /*
         if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             StartCoroutine(Dash());
-        }
+        }*/
 
         animator.SetFloat("Speed", Mathf.Abs(movementX));
         
     }
     private void FixedUpdate()
     {
-        if(isDashing)
+        /*if(isDashing)
         {
             return;
-        }
+        }*/
     }
 
     
@@ -116,7 +117,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private IEnumerator Dash()
+    /*private IEnumerator Dash()
     {
         canDash = false;
         isDashing = true;
@@ -131,7 +132,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
 
-    }
+    }*/
 
     
 
