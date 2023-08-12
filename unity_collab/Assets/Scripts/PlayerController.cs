@@ -17,13 +17,7 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private string GROUND_TAG = "Ground";
 
-    /* 
-    private bool canDash = true;
-    private bool isDashing;
-    private float dashingPower = 24f;
-    private float dashingTime = 0.2f;
-    private float dashingCooldown = 1f;
-    [SerializeField] private TrailRenderer tr;*/
+    
 
     //character facing direction
     public bool facingRight;
@@ -31,6 +25,10 @@ public class PlayerController : MonoBehaviour
     //animation
     public Animator animator;
   
+    //sound effects
+    [SerializeField] private AudioSource jumpSoundEffect;
+
+
 
     private void Awake()
     {
@@ -39,30 +37,17 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        /*if(isDashing)
-        {
-            return;
-        }*/
+        
 
         PlayerMoveKeyboard();
         PlayerJump();
 
-        /*
-        if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
-        {
-            StartCoroutine(Dash());
-        }*/
+        
 
         animator.SetFloat("Speed", Mathf.Abs(movementX));
         
     }
-    private void FixedUpdate()
-    {
-        /*if(isDashing)
-        {
-            return;
-        }*/
-    }
+    
 
     
     
@@ -100,6 +85,7 @@ public class PlayerController : MonoBehaviour
         {
             
         animator.SetBool("IsJumping", true);
+        jumpSoundEffect.Play();
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         isGrounded = false;
 
@@ -119,6 +105,29 @@ public class PlayerController : MonoBehaviour
 
     /*private IEnumerator Dash()
     {
+
+        if(isDashing)
+        {
+            return;
+        }
+
+        if(isDashing)
+        {
+            return;
+        }
+
+        if(Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+            {
+            StartCoroutine(Dash());
+            }
+
+        private bool canDash = true;
+        private bool isDashing;
+        private float dashingPower = 24f;
+        private float dashingTime = 0.2f;
+        private float dashingCooldown = 1f;
+        [SerializeField] private TrailRenderer tr;
+
         canDash = false;
         isDashing = true;
         float originalGravity = rb.gravityScale;
