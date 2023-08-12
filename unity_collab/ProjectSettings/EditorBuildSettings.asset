@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene 1.unity
     guid: 96e62e766eff59e4e84b0f1c64d46fe7
-  - enabled: 0
-    path: Assets/Scenes/SampleScene3.unity
-    guid: 408c6311c29cf6144a009aad62928b22
   - enabled: 1
     path: Assets/Scenes/Hako.unity
-    guid: e22a0f2a802317d45889acac220ddba8
+    guid: 5058211d31eb94a4b94a3f720491b2cd
+  - enabled: 1
+    path: Assets/Scenes/Menu 1.unity
+    guid: 995edc8bd44ebd547beede53d478805e
   m_configObjects: {}
