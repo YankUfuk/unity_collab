@@ -6,9 +6,13 @@ using UnityEngine.SceneManagement;
 public class LevelMove : MonoBehaviour
 {
     public int sceneBuildIndex;
+    public ItemCollector itemCollector;
+
 
     [SerializeField] private AudioSource winSoundEffect;
 
+    
+    
     private void OnTriggerEnter2D(Collider2D other) 
     {
         print("Trigger Entered");
