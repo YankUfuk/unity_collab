@@ -25225,6 +25225,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneBuildIndex: 3
+  itemCollector: {fileID: 0}
+  levelPass: {fileID: 0}
   winSoundEffect: {fileID: 0}
 --- !u!61 &1654949143
 BoxCollider2D:
@@ -31077,6 +31079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d3cf04e4dceff848a51bb10d572d14d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectible: 10
   collectibleText: {fileID: 0}
   collectionSoundEffect: {fileID: 2076202164}
 --- !u!58 &2076202167
