@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
-    public int collectible = 0;
+    public int collectible = 10;
     public Text collectibleText;
+    
 
     [SerializeField] private AudioSource collectionSoundEffect;
 
@@ -19,6 +20,19 @@ public class ItemCollector : MonoBehaviour
             collectible++;
             collectibleText.text = "Food: " + collectible;
 
+            
+        }
+    }
+
+    public void LevelPass(GameObject gameObject)
+    {
+        if(collectible >= 10)
+        {
+            gameObject.SetActive(true);
+        }
+        else
+        {
+            gameObject.SetActive(false);
         }
     }
 }

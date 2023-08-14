@@ -7,7 +7,15 @@ public class LevelMove : MonoBehaviour
 {
     public int sceneBuildIndex;
     public ItemCollector itemCollector;
+    public GameObject levelPass;
 
+
+    private void Update()
+    {
+
+        itemCollector.LevelPass(levelPass);
+
+    }    
 
     [SerializeField] private AudioSource winSoundEffect;
 
