@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Rendering;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class EnemyWalking : MonoBehaviour
 {
-    public float speed = 3.0f;
+    public float enemySpeed = 3.0f;
     private Rigidbody2D myBody;
     
     void Awake()
@@ -16,8 +17,24 @@ public class EnemyWalking : MonoBehaviour
     
     void FixedUpdate()
     {
-        myBody.velocity = new Vector2(speed, myBody.velocity.y);
+        myBody.velocity = new Vector2(enemySpeed, 0);
     }
 
+public int sceneBuildIndex;
+    //public ItemCollector itemCollector;
+    
+
+    
+
+    //[SerializeField] private AudioSource winSoundEffect;
+
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.tag == "Player")
+        {
+            //winSoundEffect.Play();
+            SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+        }
+    }
     
 }
