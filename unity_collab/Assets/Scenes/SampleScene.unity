@@ -2851,6 +2851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d3cf04e4dceff848a51bb10d572d14d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectible: 0
   collectibleText: {fileID: 0}
   door: {fileID: 1902778251}
   collectionSoundEffect: {fileID: 0}
@@ -2871,7 +2872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1406393316967327804, guid: c8cc7d55669e0d94c9e9fc3d5ff8d976, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.74
+      value: 9.77
       objectReference: {fileID: 0}
     - target: {fileID: 1406393316967327804, guid: c8cc7d55669e0d94c9e9fc3d5ff8d976, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3169,7 +3170,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631896179}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.777084, y: 20.14488, z: -10}
+  m_LocalPosition: {x: -59.81726, y: 20.14488, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5151,7 +5152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -55.25579, y: 20.172289, z: -10}
+  m_LocalPosition: {x: -52.068417, y: 20.18223, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30517,6 +30518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d3cf04e4dceff848a51bb10d572d14d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collectible: 0
   collectibleText: {fileID: 1374101101}
   door: {fileID: 0}
   collectionSoundEffect: {fileID: 1506687419}

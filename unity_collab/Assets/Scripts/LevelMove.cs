@@ -19,6 +19,8 @@ public class LevelMove : MonoBehaviour
         {
             winSoundEffect.Play();
             SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
+
+            itemCollector.collectible = 0;
         }
     }
 }
