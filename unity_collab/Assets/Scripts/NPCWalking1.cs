@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NPCWalking : MonoBehaviour
+public class NPCWalking1 : MonoBehaviour
 {
     public float speed;
 
@@ -19,13 +19,13 @@ public class NPCWalking : MonoBehaviour
 
         transform.position += Vector3.right * moveDirection * speed * Time.deltaTime;
 
-        if (moveDirection == 1 && transform.position.x > 17.2f)
+        if (moveDirection == 1 && transform.position.x > -0.76f)
         {
             moveDirection = -1;
             movesCount++;
             shouldFlip = true;
         }
-        else if (moveDirection == -1 && transform.position.x < 6.15f)
+        else if (moveDirection == -1 && transform.position.x < -17.0f)
         {
             moveDirection = 1;
             movesCount++;
