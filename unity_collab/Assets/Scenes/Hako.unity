@@ -473,8 +473,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 5.1658, y: 13.436251, z: 0}
-    m_Extent: {x: 2.3992, y: 14.95895, z: 0}
+    m_Center: {x: 5.16395, y: 13.4234, z: 0}
+    m_Extent: {x: 2.3952498, y: 14.9602995, z: 0}
   m_PointLightInnerAngle: 161.13
   m_PointLightOuterAngle: 161.13
   m_PointLightInnerRadius: 0
@@ -1706,8 +1706,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 2.9069998, y: -0.01304996, z: 0}
-    m_Extent: {x: 2.8836, y: 2.4955502, z: 0}
+    m_Center: {x: 2.9111, y: -0.008050084, z: 0}
+    m_Extent: {x: 2.8747, y: 2.5018501, z: 0}
   m_PointLightInnerAngle: 161.13
   m_PointLightOuterAngle: 161.13
   m_PointLightInnerRadius: 0
@@ -1898,7 +1898,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 523637222}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45.111, y: 3.3799303, z: -1.1791745}
+  m_LocalPosition: {x: -53.91, y: -10.77, z: -1.1791745}
   m_LocalScale: {x: 8.83222, y: 0.1625, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2618,8 +2618,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -5.7712, y: 2.6262498, z: 0}
-    m_Extent: {x: 12.848, y: 4.15065, z: 0}
+    m_Center: {x: -5.7685, y: 2.62255, z: 0}
+    m_Extent: {x: 12.85, y: 4.15485, z: 0}
   m_PointLightInnerAngle: 161.13
   m_PointLightOuterAngle: 161.13
   m_PointLightInnerRadius: 0
@@ -28163,8 +28163,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.041999936, y: 0.05070001, z: 0}
-    m_Extent: {x: 2.9032001, y: 0.6808, z: 0}
+    m_Center: {x: 0.03485, y: 0.049249977, z: 0}
+    m_Extent: {x: 2.9029498, y: 0.68404996, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -28687,8 +28687,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 2.44135, y: 0.50014997, z: 0}
-    m_Extent: {x: 4.69275, y: 2.05105, z: 0}
+    m_Center: {x: 2.43725, y: 0.50014997, z: 0}
+    m_Extent: {x: 4.6918497, y: 2.05495, z: 0}
   m_PointLightInnerAngle: 161.13
   m_PointLightOuterAngle: 161.13
   m_PointLightInnerRadius: 0
@@ -29006,8 +29006,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 3.6698, y: 0.3223002, z: 0}
-    m_Extent: {x: 3.792, y: 4.4618998, z: 0}
+    m_Center: {x: 3.6767, y: 0.3213501, z: 0}
+    m_Extent: {x: 3.7911, y: 4.45505, z: 0}
   m_PointLightInnerAngle: 161.13
   m_PointLightOuterAngle: 161.13
   m_PointLightInnerRadius: 0
@@ -42530,8 +42530,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.92894983, y: 1.8529501, z: 0}
-    m_Extent: {x: 5.83815, y: 0.76105005, z: 0}
+    m_Center: {x: 0.92970014, y: 1.8587501, z: 0}
+    m_Extent: {x: 5.8334, y: 0.75085, z: 0}
   m_PointLightInnerAngle: 69.38
   m_PointLightOuterAngle: 75.39
   m_PointLightInnerRadius: 0
@@ -42940,8 +42940,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -1.3592498, y: 1.9656498, z: 0}
-    m_Extent: {x: 8.47345, y: 3.48925, z: 0}
+    m_Center: {x: -1.3660502, y: 1.9633999, z: 0}
+    m_Extent: {x: 8.46785, y: 3.4954, z: 0}
   m_PointLightInnerAngle: 161.13
   m_PointLightOuterAngle: 161.13
   m_PointLightInnerRadius: 0
@@ -43322,8 +43322,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.99525, y: -0.89014995, z: 0}
-    m_Extent: {x: 5.87385, y: 4.43985, z: 0}
+    m_Center: {x: -1.0033, y: -0.8920001, z: 0}
+    m_Extent: {x: 5.8691998, y: 4.4525, z: 0}
   m_PointLightInnerAngle: 161.13
   m_PointLightOuterAngle: 161.13
   m_PointLightInnerRadius: 0
