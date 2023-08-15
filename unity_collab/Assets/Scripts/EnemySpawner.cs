@@ -1,28 +1,38 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject ratPrefab;
+    [SerializeField] private GameObject[] enemyReference;
+    private GameObject spawnedEnemy;
+    [SerializeField] private Transform spawnPos;
+    private int index = 0;
 
-    [SerializeField] private float swarmerInterval = 3.5f;
-
-    [SerializeField] private float bigSwarmerInterval =10f; 
+     
 
     void Start()
     {
-        StartCoroutine(spawnEnemy(swarmerInterval, ratPrefab));
-        StartCoroutine(spawnEnemy(bigSwarmerInterval, ratPrefab));
+        StartCoroutine(SpawnEnemy());
+        
     }
 
 
 
-private IEnumerator spawnEnemy(float interval, GameObject enemy)
+IEnumerator SpawnEnemy()
 {
-    yield return new WaitForSeconds(interval);
-    GameObject newEnemy = Instantiate(enemy, new Vector3(Random.Range(-5f, 5f), Random.Range(-6f, 6f),0), Quaternion.identity);
-    StartCoroutine(spawnEnemy(interval, enemy));
+    while(true)
+    {
+        yield return new WaitForSeconds(Random.Range(1,5));
+        spawnedEnemy = Instantiate(enemyReference[index]);
+        spawnedEnemy.transform.position = spawnPos.position;
+        spawnedEnemy.GetComponent<EnemyWalking>().speed = -Random.Range(4,10);
+        yield return new WaitForSeconds(4);
+        Destroy(GameObject.FindWithTag("Enemy"));
+
+    }
+    
 }
 
 
